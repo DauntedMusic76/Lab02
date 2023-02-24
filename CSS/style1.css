@@ -1,0 +1,61 @@
+.col-25 {
+    width: 25%;
+    float: left;
+}
+
+.prod {
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.prod>.name {
+    font-variant: small-caps;
+    color: orange;
+}
+
+.prod>.image{
+    max-width: 98%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.prod>.price {
+    font-family: Impact;
+    color: orange;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-size: 25px;
+}
+
+.prod>.icon1{
+    position: absolute;
+    right: 5px;
+    bottom:55px;
+    width: 25px;
+}
+
+.prod>.icon2{
+    position: absolute;
+    right: 5px;
+    bottom: 30px;
+    width: 25px;
+}
+
+.prod>.icon3{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 25px;
+}
+
+.prod>.new-icon {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 25px;
+}
